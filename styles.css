@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color:rgb(170, 167, 167);
+    width: 20vw;
+    font-family: 'fira sans',sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+   
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+   background-color: rgb(231, 226, 226);
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'source code pro',monospace;
+
+}
+.hello{
+    font-size: 89px;
+}
+.name{
+    font-size: 46px;
+    font-weight: bold;
+}
+.about{
+    font-size: 38px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.contactform{
+    padding-top: 144px;
+    padding: 0 34px;
+font-family: 'fira sans',sans-serif;
+}
+.contactform h1{
+font-family: 'source code pro',monospace;
+text-align: center;
+}
+.contactform div{
+    padding: 10px 0;
+}
+.contactform form div{
+    width: 28vw;
+    border-radius: 14px;
+    margin: 24px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: blue;
+    margin: 0 5px;
+}
+.intro h2{
+font-family: 'fira Sans',sans-serif;
+margin: 12px;
+}
+.intro p{
+    font-family: 'fira Sans',sans-serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem
+{
+    display: flex;
+    align-items: center;
+    font-family: 'source code pro',monospace;
+    font-weight: 700;
+}
+.skill{
+    width: 325px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: black;
+
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
